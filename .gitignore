@@ -1,0 +1,23 @@
+# Ignore Python virtual environments
+venv310/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python egg info
+*.egg-info/
+dist/
+build/
+# Ignore virtual environment
+venv310/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
