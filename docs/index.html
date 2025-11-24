@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Virtual Mouse – Hand Gesture Control</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #0f0f0f;
+            color: #ffffff;
+        }
+        header {
+            padding: 40px;
+            text-align: center;
+            background: linear-gradient(135deg, #1a73e8, #0b3d91);
+        }
+        h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-weight: normal;
+        }
+        .section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .card {
+            background: #1b1b1b;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border: 1px solid #333;
+        }
+        .code {
+            background: #111;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: monospace;
+            white-space: pre-wrap;
+            border: 1px solid #333;
+        }
+        a {
+            color: #4aa3ff;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>AI Virtual Mouse</h1>
+    <h3>Control Your Computer with Hand Gestures (OpenCV + MediaPipe)</h3>
+</header>
+
+<div class="section">
+
+    <div class="card">
+        <h2>📌 Project Overview</h2>
+        <p>This project replaces your physical mouse with a hand-gesture-based virtual mouse. 
+        Using <b>OpenCV</b>, <b>MediaPipe Hands</b>, and <b>PyAutoGUI</b>, your webcam tracks hand landmarks 
+        and converts gestures into actions like cursor movement, clicks, and screenshots.</p>
+    </div>
+
+    <div class="card">
+        <h2>🛠 Tools & Technologies</h2>
+        <ul>
+            <li>Python 3.10</li>
+            <li>OpenCV</li>
+            <li>MediaPipe</li>
+            <li>PyAutoGUI</li>
+            <li>Pynput</li>
+            <li>Numpy</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>⚙️ Features</h2>
+        <ul>
+            <li>Real-time hand tracking</li>
+            <li>Cursor movement using index finger</li>
+            <li>Left click, right click & double click gestures</li>
+            <li>Capture screenshots using a gesture</li>
+            <li>Gesture-based controls with angle-based recognition</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🖐 Supported Gestures</h2>
+        <ul>
+            <li><b>Move Mouse:</b> Bring thumb & index close + point</li>
+            <li><b>Left Click:</b> Index bent + middle straight</li>
+            <li><b>Right Click:</b> Middle bent + index straight</li>
+            <li><b>Double Click:</b> Both fingers bent</li>
+            <li><b>Screenshot:</b> Both fingers bent + thumb-index close</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>📦 Installation</h2>
+        <div class="code">
+pip install opencv-python mediapipe pyautogui pynput numpy
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>▶️ How to Run</h2>
+        <div class="code">
+python AIMouse.py
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>📄 Source Code</h2>
+        <p><a href="https://github.com/shojib068/Virtual-Mouse-Using-Hand-Gesture-Recognition" target="_blank">View on GitHub</a></p>
+    </div>
+
+</div>
+
+<footer>
+    © 2025 AI Virtual Mouse Project — Developed by You
+</footer>
+
+</body>
+</html>
